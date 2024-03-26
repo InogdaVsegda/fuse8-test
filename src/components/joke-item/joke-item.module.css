@@ -1,0 +1,59 @@
+.jokeItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    min-height: 150px;
+    height: 100%;
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 25px;
+    box-shadow: 0px 7px 20px rgba(100, 100, 111, 0.17);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.jokeItem:hover .joke {
+    color: #656EC2
+}
+
+.joke {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    line-height: 24px;
+    color: #282626;
+    font-size: 16px;
+
+}
+
+.jokeItem:nth-child(-n+2) {
+    min-height: 262px;
+    padding: 40px;
+    padding-bottom: 25px;
+}
+
+.jokeItem:nth-child(-n+2) .joke {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676
+}
+
+.infoId, 
+.infoDate {
+    margin: 0;
+    padding: 0;
+}
+
+
